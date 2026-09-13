@@ -77,6 +77,7 @@ medicare-connect-powerbi/
 The dataset is structured as a **star schema**, the industry standard for Power BI and analytical modelling. This design ensures fast DAX calculations, clean relationships, and a model that can be extended without restructuring.
 
 
+ ```
                     ┌─────────────┐
                     │  Dim_Date   │
                     └──────┬──────┘
@@ -98,7 +99,7 @@ The dataset is structured as a **star schema**, the industry standard for Power 
                     │  Fact_Billing   │
                     │  (18,000 rows)  │
                     └─────────────────┘
-
+```
 
  ### Table Reference
 
